@@ -1,0 +1,4 @@
+document.getElementById('fome.html').addEventListener('click', function(e) {
+    e.preventDefault(); // Prevents the default action of the link
+    document.getElementById('main-content').scrollIntoView({ behavior: 'smooth' }); // Scrolls the main content into view smoothly
+});
