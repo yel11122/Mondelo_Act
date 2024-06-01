@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Baking Blog</title>
+    <link rel="stylesheet" href="YEL.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>My Baking Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="home-link">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section class="featured" id="home">
+            <h2>Featured Recipe</h2>
+            <img src="pic1.jpg" alt="Featured Recipe">
+            <p>This is a delicious recipe that you will love!</p>
+        </section>
+        <section class="recent-posts" id="recent-posts">
+            <h2>Recent Posts</h2>
+            <article>
+                <h3>Chocolate Chip Cookies</h3>
+                <p>Classic chocolate chip cookies with a chewy center and crispy edges.</p>
+            </article>
+            <article>
+                <h3>Vanilla Cupcakes</h3>
+                <p>Light and fluffy vanilla cupcakes topped with creamy buttercream frosting.</p>
+            </article>
+            <article>
+                <h3>Banana Bread</h3>
+                <p>Moist and flavorful banana bread with a hint of cinnamon.</p>
+            </article>
+            <article>
+                <h3>Lemon Bars</h3>
+                <p>Tart and sweet lemon bars with a buttery crust.</p>
+            </article>
+            <article>
+                <h3>Red Velvet Cake</h3>
+                <p>Rich and moist red velvet cake with a tangy cream cheese frosting.</p>
+            </article>
+        </section>
+        <section class="recipes" id="recipes">
+            <h2>More Recipes</h2>
+            <article>
+                <h3>Cupcakes</h3>
+                <img src="pic2.jpg" alt="Cupcakes">
+                <p>Delicious and fluffy cupcakes with various frosting options.</p>
+            </article>
+            <article>
+                <h3>Leche Flan</h3>
+                <img src="pic3.jpg" alt="Leche Flan">
+                <p>Rich and creamy leche flan, a classic dessert.</p>
+            </article>
+            <article>
+                <h3>Cakes</h3>
+                <img src="pic4.jpg" alt="Cakes">
+                <p>Beautiful and decadent cakes for all occasions.</p>
+            </article>
+            <article>
+                <h3>Cookies</h3>
+                <img src="pic5.jpg" alt="Cookies">
+                <p>Chewy and crunchy cookies, perfect for any time.</p>
+            </article>
+            <article>
+                <h3>Brownies</h3>
+                <img src="pic6.jpg" alt="Brownies">
+                <p>Rich and fudgy brownies that melt in your mouth.</p>
+            </article>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>Welcome to My Baking Blog, where we share delicious recipes and baking tips. Whether you are a beginner or an experienced baker, you'll find something to enjoy here!</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you have any questions or comments, feel free to reach out to us at contact@mybakingblog.com.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Baking Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
